@@ -1,0 +1,171 @@
+#wrapper{
+	width: 100%;
+	font-family: sans-serif;
+}
+
+#content{margin: 40px 0;}
+
+.navbar-default {
+	background-color: #428bca;
+	padding: 20px 0;
+}
+
+.sf-menu li{
+	background-color: #428bca !important;	
+}
+
+	.sf-menu li a{
+		color: #fff;
+		border:none;
+		border-radius: 10px;
+	}
+	
+	.sf-menu li a:hover{
+		background-color: #fff;
+		color: #428bca;
+		border-radius: 2px;
+	}
+
+	.fa-search {margin-left:-30px;}
+
+
+
+	.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+		color: #fff;
+	}
+
+	.navbar-brand{
+		font-family: monaco;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		font-size: 20px;
+	}
+
+	/*.navbar-default .navbar-nav>li>a:hover{
+		background-color: #046FCC;
+		border-radius: 8px;
+	}*/
+
+/*** carousel ***/
+#home-carousel{
+	background-color: #eee;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.carousel-caption{
+	color: #666;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	left: 0;
+	bottom: -10px;
+	/*background-color: #fff;*/
+}
+
+.carousel-caption h3{
+	width: 100%;
+}
+
+.carousel-indicators{
+	bottom: -10px;
+}
+
+/*** .container ***/
+.container{
+	/*margin-bottom: 40px;*/
+}
+
+/*** members.index ***/
+
+.username {
+	padding: 10px;
+	margin-top: 0;
+	border: 1px solid #bce8f1;
+	border-radius: 5px;
+	color: #31708f;
+}
+
+	#by{font-size: 14px;}
+
+	.count{font-size: 16px; border-radius:3000px;background-color: #428bca; padding: 2px 6px; color:#fff;}
+
+.single-gallery{padding: 20px;}
+
+.gallery-thumbnail{ color:#bce8f1; }
+
+.galleries-row{
+	/*border-top: 1px dotted #999;*/
+	/*border-bottom: 1px dotted #999;*/
+	padding: 10px 0;
+}
+
+
+
+/*** image list (galleries.edit) ***/
+
+.image-in-list{position:relative;}
+
+	.delete-image{
+		position: absolute;
+		top: 5px;
+		right: 20px;
+		background: rgba(255,255,255,0.9);
+		padding: 2px 4px;
+		cursor: pointer;
+		/*color:red;*/
+	}
+
+		.delete-image:hover{
+			color:red;
+		}
+
+	.image-order{
+		position: absolute;
+		top: 95px;
+		left: 20px;
+		background: rgba(255,255,255,0.9);
+		padding: 2px 4px;
+	}
+
+/*** galleries.show ***/
+
+ul.tags li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 0;
+}
+
+/*** footer ***/
+
+footer{
+	background-color: #428bca;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+	footer a{color:#fff;}
+
+/*** helper classes **/
+
+.inline{display: inline;}
+
+.error{ color:red;}
+
+.placeholder { 
+	background-color: #eee;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	width:150px; 
+	height:113px; 
+	position: relative;
+	float: left;
+}
+
+.center{text-align: center;}
+
+.description{font-style: italic; color:#666;}
