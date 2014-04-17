@@ -105,7 +105,7 @@ class GalleriesController extends \BaseController {
 			$this->gallery->save($input);
 
 			//create directory
-			//if( !file_exists($galleryUrl) ) mkdir($galleryUrl);
+			if( !file_exists($galleryUrl) ) mkdir($galleryUrl);
 
 			$galleryId = $this->gallery->findLastUpdatedId();
 
@@ -197,14 +197,23 @@ class GalleriesController extends \BaseController {
 	 */
 	public function update($userId, $id)
 	{
+		try{
 		//find old gallery name
 		$oldGalleryPath = public_path() . '/gallery/' . $this->gallery->findById($id)->url;
 		//rename and move images
 		$galleryName = Input::get('gallery_name');
+
+		//validate multiple upload
+		if( $this->uploadValidator->validate(Request::file('images')) == false ) 
+			return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
+
+		//validate rest of form
+		$validationData = ['name'=>$galleryName];
+		Event::fire('gallery.saving', [$validationData]);
+
+		//rename gallery
 		$newGalleryPath = public_path() . '/gallery/' . $this->gallery->findById($id)->user->username . '/' . $galleryName;
 		$this->gallery->renameGallery($oldGalleryPath, $newGalleryPath);
-
-		//dd(Request::file('images'));
 
 		$galleryDescription = Input::get('gallery_description');
 		$galleryTags = Input::get('gallery_tags');
@@ -230,6 +239,9 @@ class GalleriesController extends \BaseController {
 			{
 			$imageUrl = time() . '-' . $image->getClientOriginalName();
 			$image->move($galleryUrl , $imageUrl);
+			$imagePath = $galleryUrl . '/' . $imageUrl;
+			$imageFile = $this->imageManipulation->resizeImageFile($imagePath, 1024);
+			$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60);
 
 			$this->image->save( ['url' => $imageUrl, 'gallery_id' => $id, 'order' => $imageOrder] );
 			$imageOrder++;
@@ -239,7 +251,7 @@ class GalleriesController extends \BaseController {
 		//delete old tags
 		$this->tag->delete($id);
 
-		//save tags
+		//save new tags
 		foreach ($galleryTags as $tag) {
 			
 			$this->tag->save( ['name' => $tag, 'gallery_id' => $id] );
@@ -250,7 +262,12 @@ class GalleriesController extends \BaseController {
 
 		return Redirect::route('users.galleries.index',['userId'=>$userId])
 				->withFlashMessage('Gallery updated succesufuly');
+		}
 
+		catch(ValidationException $e )
+		{
+			return Redirect::back()->withInput()->withErrors($e->getErrors());
+		}
 	}
 
 	/**

@@ -64,6 +64,7 @@ cd /vagrant
 
 echo "Creating Mysql Database"
 echo "CREATE DATABASE IF NOT EXISTS l4shareyg" | mysql -uroot -proot 
+echo "CHARACTER SET = utf8"
 
 echo "Running migrations"
 php artisan migrate
