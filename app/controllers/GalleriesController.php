@@ -101,7 +101,7 @@ class GalleriesController extends \BaseController {
 			$validationData = ['name'=>$galleryName];
 			Event::fire('gallery.saving', [$validationData]);
 			
-			//makedir
+			//makedir now
 			if(!file_exists($galleryUrl) && !empty($galleryUrl))
 			File::makeDirectory($galleryUrl, 777, true, true);
 			
