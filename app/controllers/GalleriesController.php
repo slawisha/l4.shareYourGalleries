@@ -101,11 +101,12 @@ class GalleriesController extends \BaseController {
 			$validationData = ['name'=>$galleryName];
 			Event::fire('gallery.saving', [$validationData]);
 			
+			//makedir
+			if(!file_exists($galleryUrl) && !empty($galleryUrl))
+			File::makeDirectory($galleryUrl, 777, true, true);
+			
 			//save gallery
 			$this->gallery->save($input);
-
-			//create directory
-			if( !file_exists($galleryUrl) ) mkdir($galleryUrl);
 
 			$galleryId = $this->gallery->findLastUpdatedId();
 
