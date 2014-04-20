@@ -77,66 +77,15 @@ class GalleriesController extends \BaseController {
 	public function store($userId)
 	{
 		try{
-			//dd(Input::file('images'));
-			$galleryName = Input::get('gallery_name');
-			$galleryDescription = Input::get('gallery_description');
-			$galleryTags = Input::get('gallery_tags');
-			$galleryUrl = public_path() . '/gallery/' . Auth::user()->username . '/' . $galleryName . '/';
-			$galleryTags = explode(',', Input::get('gallery_tags'));
-
-			// dd(Request::file('images'));
-
-			$input = [
-				'name' => $galleryName, 
-				'description' => $galleryDescription, 
-				'user_id' => Auth::user()->id,
-				'url' => Auth::user()->username . '/' . $galleryName . '/'
-			];
-
 			//validate multiple upload
-			if( $this->uploadValidator->validate(Request::file('images')) == false ) 
+			if( ! $this->uploadValidator->validate(Request::file('images')) ) 
 				return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
 
-			//validate rest of form
-			$validationData = ['name'=>$galleryName];
-			Event::fire('gallery.saving', [$validationData]);
+			Gallery::save(Input::get('gallery_name'), Input::get('gallery_description'));
 			
-			//makedir now
-			if(!file_exists($galleryUrl) && !empty($galleryUrl))
-			File::makeDirectory($galleryUrl, 777, true, true);
-			
-			//save gallery
-			$this->gallery->save($input);
+			Gallery::uploadAndSaveImages(Input::file('images'), $galleryName);
 
-			$galleryId = $this->gallery->findLastUpdatedId();
-
-			//save and move images
-			$j = 1;
-
-			//dd(Request::file('images'));
-			foreach(Request::file('images') as $image) 
-			{
-				if( !is_null($image) && $image->isValid() )
-				{
-					//dd($image);
-					$imageUrl = time() . '-' . $image->getClientOriginalName();
-		
-					$image->move($galleryUrl , $imageUrl);
-					$imagePath = $galleryUrl . '/' . $imageUrl;
-					$imageFile = $this->imageManipulation->resizeImageFile($imagePath, 1024);
-					$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60);
-
-					//save into db
-					$this->image->save( ['url' => $imageUrl, 'gallery_id' => $galleryId, 'order'=>$j] );
-					$j++;
-				}
-				//What if image is too large (Currently isn't saving)
-			}
-
-			//save tags
-			foreach ($galleryTags as $tag) {
-				$this->tag->save( ['name' => $tag, 'gallery_id' => $galleryId] );
-			}
+			Gallery::saveTags(Input::get('gallery_tags'));
 
 			return Redirect::route('users.galleries.index', ['userId'=>$userId])
 						->withFlashMessage('Gallery created succesufuly');
