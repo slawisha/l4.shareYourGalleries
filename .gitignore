@@ -7,3 +7,6 @@ composer.lock
 .DS_Store
 Thumbs.db
 /public/gallery
+*.sublime-project
+*.sublime-workspace
+/.vagrant

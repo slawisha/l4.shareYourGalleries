@@ -3,6 +3,518 @@
 	{
 		"selected_items":
 		[
+			[
+				"Sess",
+				"Session-has	Session-has"
+			],
+			[
+				"Se",
+				"Session-forget	Session-forget"
+			],
+			[
+				"SEs",
+				"Session-put	Session-put"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"Up",
+				"UploadValidator"
+			],
+			[
+				"u",
+				"uploadSize  (variable)"
+			],
+			[
+				"funct",
+				"function_exists"
+			],
+			[
+				"max",
+				"maxDimension"
+			],
+			[
+				"ima",
+				"imagePath  (variable)"
+			],
+			[
+				"image",
+				"imagePath"
+			],
+			[
+				"imageM",
+				"imageManipulation"
+			],
+			[
+				"Image",
+				"ImageManipulation"
+			],
+			[
+				"galle",
+				"galleryUrl"
+			],
+			[
+				"galler",
+				"gallery"
+			],
+			[
+				"A",
+				"Auth	Laravel: Auth::user()"
+			],
+			[
+				"with",
+				"withTitle"
+			],
+			[
+				"ga",
+				"galleryName  (variable)"
+			],
+			[
+				"Event",
+				"Event	Laravel: Event::fire()"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"gall",
+				"galleryIds"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"user",
+				"userShareGalleries"
+			],
+			[
+				"users",
+				"userShare"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"display",
+				"display:   (property)"
+			],
+			[
+				"gallery",
+				"galleryTags"
+			],
+			[
+				"findG",
+				"findGalleryTags"
+			],
+			[
+				"userSha",
+				"userShareIds"
+			],
+			[
+				"userS",
+				"userShareIds"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"se",
+				"searchResults"
+			],
+			[
+				"Input",
+				"Input	Laravel: Input::get()"
+			],
+			[
+				"order",
+				"orderArray"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ne",
+				"nextImages"
+			],
+			[
+				"sp",
+				"spanImageOrder"
+			],
+			[
+				"f",
+				"find	.find()"
+			],
+			[
+				"h",
+				"html	.html"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"next",
+				"nextImages"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"nex",
+				"nextAll	.nextAll"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"ia",
+				"imagePath  (variable)"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"fi",
+				"find	.find()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"Rou",
+				"Route	Laravel: Route::post()"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"er",
+				"errors"
+			],
+			[
+				"pass",
+				"password  (variable)"
+			],
+			[
+				"$user",
+				"$userShareId"
+			],
+			[
+				"Redirect",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"Route",
+				"Route	Laravel: Route::filter()"
+			],
+			[
+				"o",
+				"oldGalleryPath"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"old",
+				"oldGalleryName"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"new",
+				"newName"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"re",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"public",
+				"public_path"
+			],
+			[
+				"iam",
+				"image"
+			],
+			[
+				"Form",
+				"Form	Laravel: Form::submit()"
+			],
+			[
+				"Vie",
+				"View	Laravel: View::make()"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"Red",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"post",
+				"postId"
+			],
+			[
+				"DB",
+				"DB-table	DB-table"
+			],
+			[
+				"Redirec",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"Session",
+				"Session-get	Session-get"
+			],
+			[
+				"Validatio",
+				"ValidationException"
+			],
+			[
+				"valida",
+				"validation"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"ur",
+				"urlHasher"
+			],
+			[
+				"mak",
+				"makeHash  (function)"
+			],
+			[
+				"Even",
+				"Event-fire	Event-fire"
+			],
+			[
+				"make",
+				"makeHash"
+			],
+			[
+				"Link",
+				"linkRepoInterface"
+			],
+			[
+				"li",
+				"linkRepo"
+			],
+			[
+				"REd",
+				"Redirect	Laravel: Redirect::home()"
+			],
+			[
+				"For",
+				"Form	Laravel: Form::text()"
+			],
+			[
+				"Res",
+				"Response-json	Response-json"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"Valida",
+				"Validator	Laravel: Validator::make()"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"ex",
+				"expiry"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"ng-c",
+				"ng-class	AngularJS"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"function",
+				"angular.isFunction	AngularJS"
+			],
+			[
+				"REs",
+				"Response-json	Response-json"
+			],
+			[
+				"Remi",
+				"RemindableInterface"
+			],
+			[
+				"move",
+				"movedImages"
+			],
+			[
+				"in",
+				"in_array"
+			],
+			[
+				"mod",
+				"movedImages"
+			],
+			[
+				"con",
+				"constant"
+			],
+			[
+				"fad",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"Req",
+				"Request	Laravel: Request::ajax()"
+			],
+			[
+				"link",
+				"linkRoute"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"scan",
+				"scandir"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"rg",
+				"rgba	rgba()"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"lis",
+				"list	list-style-type"
+			],
+			[
+				"Pass",
+				"Password-reset	Password-reset"
+			],
+			[
+				"Auth",
+				"Auth	Laravel: Auth::user()"
+			],
+			[
+				"Repos",
+				"RepositoryInterface"
+			],
+			[
+				"Inp",
+				"Input	Laravel: Input::get()"
+			],
+			[
+				"upload",
+				"uploads"
+			],
+			[
+				"pub",
+				"public_path"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Ro",
+				"Route	Laravel: Route::get()"
+			]
 		]
 	},
 	"buffers":
@@ -11,23 +523,11 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
-				"SublimeLinter: Choose Gutter Theme"
-			],
-			[
-				"i ",
+				"tinsta",
 				"Package Control: Install Package"
 			],
 			[
@@ -35,18 +535,56 @@
 				"Package Control: Install Package"
 			],
 			[
-				"int",
-				"Preferences: Key Bindings - Default"
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"p",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pa",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"isn",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 522.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			":tag FormBuilder",
+			"ctags",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
 		]
 	},
 	"distraction_free":
@@ -60,13 +598,138 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+		"/d/sites/l4.share_your_gallery/public/gallery/david71/HugeG/1397763125-Žurka za dan škole 13.12.2012.jpg",
+		"/d/sites/l4.share_your_gallery/public/gallery/david71/zzzzzzzzzzzzzzzzzzz/1397763738-Žurka za dan škole 13.12.2012.jpg",
+		"/d/sites/l4.share_your_gallery/.gitignore",
+		"/d/sites/l4.share_your_gallery/install.sh",
+		"/d/sites/l4.share_your_gallery/app/views/sessions/create.blade.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/GalleryValidator.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/ImageManipulationRepository.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/d/sites/l4.share_your_gallery/app/config/app.php",
+		"/d/sites/l4.share_your_gallery/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+		"/d/sites/l4.share_your_gallery/vendor/symfony/filesystem/Symfony/Component/Filesystem/Filesystem.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/ImageRepository.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/helpers.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/create.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+		"/d/sites/l4.share_your_gallery/vendor/fzaninotto/faker/src/Faker/Factory.php",
+		"/d/sites/l4.share_your_gallery/app/start/global.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/d/sites/l4.share_your_gallery/app/models/User.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+		"/d/sites/l4.share_your_gallery/composer.json",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/edit.blade.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/GalleryRepository.php",
+		"/d/sites/l4.share_your_gallery/app/models/Gallery.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/all.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/index.blade.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/PagesController.php",
+		"/d/sites/l4.share_your_gallery/app/views/partials/navigation.blade.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/SessionsController.php",
+		"/d/sites/l4.share_your_gallery/app/views/pages/admin.blade.php",
+		"/d/sites/l4.share_your_gallery/app/filters.php",
+		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Auth/Guard.php",
+		"/d/sites/l4.share_your_gallery/public/css/style.css",
+		"/d/sites/l4.share_your_gallery/app/views/password/remind.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/pages/register.blade.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/RemindersController.php",
+		"/d/sites/l4.share_your_gallery/app/views/password/reset.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/partials/footer.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/emails/auth/reminder.blade.php",
+		"/d/sites/l4.share_your_gallery/app/config/mail.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/UsersController.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/show.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/bin/phpunit",
+		"/d/sites/l4.share_your_gallery/vendor/bin/phpunit.bat",
+		"/d/sites/l4.share_your_gallery/bootstrap/start.php",
+		"/d/sites/l4.share_your_gallery/app/routes.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Remote/RemoteServiceProvider.php",
+		"/d/sites/l4.share_your_gallery/app/views/pages/search.blade.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/UserRepository.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/TagRepository.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/UserShareRepository.php",
+		"/d/sites/l4.share_your_gallery/app/models/UserShare.php",
+		"/d/sites/l4.share_your_gallery/app/views/pages/members.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
+		"/d/sites/l4.share_your_gallery/app/views/pages/home.blade.php",
+		"/d/sites/l4.share_your_gallery/public/js/script.js",
+		"/d/sites/l4.share_your_gallery/app/controllers/ImagesController.php",
+		"/d/sites/l4.share_your_gallery/app/views/layouts/master.blade.php",
+		"/d/sites/l4.share_your_gallery/app/models/Image.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UserValidator.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/Validator.php",
+		"/d/sites/l4.share_your_gallery/app/views/users/index.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/sharings/index.blade.php",
+		"/d/sites/l4.share_your_gallery/app/controllers/UserSharesController.php",
+		"/d/sites/l4.share_your_gallery/app/views/users/sharing.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php",
+		"/d/sites/l4.share_your_gallery/vendor/fzaninotto/faker/src/Faker/Provider/File.php",
+		"/d/sites/l4.share_your_gallery/public/js/jquery.colorbox-min.js",
+		"/d/sites/l4.share_your_gallery/public/css/colorbox.css",
+		"/d/sites/l4.share_your_gallery/app/views/partials/aside.blade.php",
+		"/d/sites/l4.share_your_gallery/app/database/migrations/2014_03_09_212702_create_galleries_table.php",
+		"/d/sites/l4.share_your_gallery/app/database/migrations/2014_03_09_213251_create_images_table.php",
+		"/c/wamp/www/l4.ecommerce/app/routes.php",
+		"/c/wamp/www/l4.ecommerce/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+		"/d/sites/l4.favoritethis/app/database/seeds/PostsTableSeeder.php",
+		"/d/sites/l4.favoritethis/app/database/seeds/DatabaseSeeder.php",
+		"/d/sites/l4.favoritethis/app/models/Post.php",
+		"/d/sites/l4.favoritethis/app/models/User.php",
+		"/d/sites/l4.favoritethis/composer.json",
+		"/d/sites/l4.favoritethis/app/config/app.php",
+		"/d/sites/l4.favoritethis/app/config/database.php",
+		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/User/html5-bootstrap.sublime-snippet",
+		"/d/sites/l4.favoritethis/install.sh",
+		"/d/sites/l4.urlshortener/app/start/global.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Utilities/UrlHasher.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Repositories/LinkRepositoryInterface.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Repositories/DbLinkRepository.php",
+		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/d/sites/l4.urlshortener/app/Petrovic/Repositories/BackendServiceProvider.php",
+		"/d/sites/l4.urlshortener/app/models/Link.php",
+		"/d/sites/l4.urlshortener/app/config/database.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Shortener/Facades/Little.php",
+		"/d/sites/l4.urlshortener/app/config/app.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Shortener/LittleServiceProvider.php",
+		"/d/sites/l4.urlshortener/app/database/seeds/DatabaseSeeder.php",
+		"/d/sites/l4.urlshortener/app/database/seeds/LinksTableSeeder.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Exceptions/NonExistentHashException.php",
+		"/d/sites/l4.urlshortener/composer.json",
+		"/d/sites/l4.urlshortener/app/views/links/create.blade.php",
+		"/d/sites/l4.urlshortener/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/Laravel 4 Facades/Default (Windows).sublime-keymap",
+		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/d/sites/l4.urlshortener/app/database/migrations/2014_02_27_160345_create_links_table.php",
+		"/d/sites/l4.urlshortener/app/Petrovic/Facades/Little.php",
+		"/d/sites/l4.urlshortener/readme.md",
+		"/d/sites/l4.urlshortener/app/Petrovic/Shortener",
+		"/d/sites/l4.urlshortener/Vagrantfile",
+		"/d/sites/l4.urlshortener/public/css/style.css",
+		"/d/sites/l4.urlshortener/app/views/layout.blade.php",
+		"/c/wamp/www/l4.ecommerce/app/controllers/CategoryController.php",
+		"/c/wamp/www/l4.ecommerce/app/models/Category.php",
+		"/c/wamp/www/l4.ecommerce/app/models/Order.php",
+		"/c/wamp/www/l4.ecommerce/app/controllers/OrderController.php",
+		"/c/wamp/www/l4.ecommerce/app/controllers/AccountController.php",
+		"/c/wamp/www/l4.ecommerce/public/css/shared.css",
+		"/c/wamp/www/l4.ecommerce/app/controllers/ProductController.php",
+		"/c/wamp/www/l4.ecommerce/app/models/Product.php",
+		"/c/wamp/www/l4.ecommerce/install.sh",
+		"/c/wamp/www/l4.ecommerce/app/database/seeds/CategoryTableSeeder.php",
+		"/c/wamp/www/l4.ecommerce/app/database/seeds/OrderTableSeeder.php",
+		"/c/wamp/www/l4.ecommerce/app/database/seeds/OrderItemTableSeeder.php",
+		"/c/wamp/www/l4.ecommerce/app/models/OrderItem.php",
+		"/c/wamp/www/l4.ecommerce/app/database/seeds/DatabaseSeeder.php",
+		"/c/wamp/www/l4.ecommerce/app/database/seeds/ProductTableSeeder.php"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -80,6 +743,63 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"upload_max_filesize",
+			"::make",
+			"Auth::user()->username",
+			"default",
+			"info",
+			"gallery",
+			"span",
+			"user",
+			"h3",
+			"galleries",
+			"user",
+			"User",
+			"placeholder",
+			"order",
+			"Spans",
+			"Count",
+			"image",
+			"email",
+			"username",
+			"$userShareId",
+			"userId",
+			"				->",
+			"$userId",
+			"Name",
+			"userShares",
+			"td",
+			"tr",
+			"Image",
+			"$Tag",
+			"$Tag ",
+			"image",
+			"Image",
+			"image",
+			"Image",
+			"gallery",
+			"Gallery",
+			"_id",
+			"user",
+			"User",
+			"name",
+			"aside",
+			"name",
+			"Username'",
+			"username'",
+			"background-",
+			"es",
+			"// public function favorites()\n	// {\n	// 	$this->belongsToMany('Post','favorites')->withTimestamps();\n	// }",
+			"User",
+			"users",
+			"update",
+			"theme",
+			"$destination",
+			"fadeOut",
+			"gallery",
+			"Gallery",
+			"upload",
+			"uploads"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -104,11 +824,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -136,7 +856,7 @@
 	"project": "l4.share-your-gallery.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -145,27 +865,447 @@
 		"selected_items":
 		[
 			[
-				"upda",
-				"C:\\Users\\Petrovic Family\\AppData\\Roaming\\Sublime Text 3\\Packages\\Default\\Preferences.sublime-settings"
+				"insta",
+				"install.sh"
+			],
+			[
+				"edit",
+				"app\\views\\galleries\\edit.blade.php"
+			],
+			[
+				"cre",
+				"app\\views\\galleries\\create.blade.php"
+			],
+			[
+				"illminate/validation",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Validator.php"
+			],
+			[
+				"illuminate/valida",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Factory.php"
+			],
+			[
+				"app",
+				"app\\config\\app.php"
+			],
+			[
+				"upload",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"file",
+				"vendor\\symfony\\filesystem\\Symfony\\Component\\Filesystem\\Filesystem.php"
+			],
+			[
+				"fa",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Factory.php"
+			],
+			[
+				"factory",
+				"vendor\\fzaninotto\\faker\\src\\Faker\\Factory.php"
+			],
+			[
+				"creat",
+				"app\\views\\galleries\\create.blade.php"
+			],
+			[
+				"petrovic",
+				"app\\Petrovic\\helpers.php"
+			],
+			[
+				"hel",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+			],
+			[
+				"image",
+				"app\\Petrovic\\Repositories\\ImageRepository.php"
+			],
+			[
+				"filesys",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php"
+			],
+			[
+				"user",
+				"app\\models\\User.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"helpe",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+			],
+			[
+				"filte",
+				"app\\filters.php"
+			],
+			[
+				"foo",
+				"app\\views\\partials\\footer.blade.php"
+			],
+			[
+				"na",
+				"app\\views\\partials\\navigation.blade.php"
+			],
+			[
+				"style",
+				"public\\css\\style.css"
+			],
+			[
+				"mai",
+				"app\\config\\mail.php"
+			],
+			[
+				"routes",
+				"app\\routes.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"a",
+				"app\\config\\app.php"
+			],
+			[
+				"uplo",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"upl",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"show",
+				"app\\views\\galleries\\show.blade.php"
+			],
+			[
+				"creae",
+				"app\\views\\galleries\\create.blade.php"
+			],
+			[
+				"glo",
+				"app\\start\\global.php"
+			],
+			[
+				"star",
+				"bootstrap\\start.php"
+			],
+			[
+				"users",
+				"app\\controllers\\UsersController.php"
+			],
+			[
+				"rotes",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Remote\\RemoteServiceProvider.php"
+			],
+			[
+				"sessio",
+				"app\\controllers\\SessionsController.php"
+			],
+			[
+				"register",
+				"app\\views\\pages\\register.blade.php"
+			],
+			[
+				"styles",
+				"public\\css\\style.css"
+			],
+			[
+				"galler",
+				"app\\controllers\\GalleriesController.php"
+			],
+			[
+				"sea",
+				"app\\views\\pages\\search.blade.php"
+			],
+			[
+				"galle",
+				"app\\Petrovic\\Repositories\\GalleryRepository.php"
+			],
+			[
+				"tag",
+				"app\\Petrovic\\Repositories\\TagRepository.php"
+			],
+			[
+				"mem",
+				"app\\views\\pages\\members.blade.php"
+			],
+			[
+				"galleries",
+				"app\\views\\galleries\\index.blade.php"
+			],
+			[
+				"members",
+				"app\\views\\pages\\members.blade.php"
+			],
+			[
+				"pa",
+				"app\\controllers\\PagesController.php"
+			],
+			[
+				"navi",
+				"app\\views\\partials\\navigation.blade.php"
+			],
+			[
+				"route",
+				"app\\routes.php"
+			],
+			[
+				"pages",
+				"app\\controllers\\PagesController.php"
+			],
+			[
+				"ima",
+				"app\\controllers\\ImagesController.php"
+			],
+			[
+				"r",
+				"app\\routes.php"
+			],
+			[
+				"master",
+				"app\\views\\layouts\\master.blade.php"
+			],
+			[
+				"ga",
+				"app\\controllers\\GalleriesController.php"
+			],
+			[
+				"rouet",
+				"app\\routes.php"
+			],
+			[
+				"script",
+				"public\\js\\script.js"
+			],
+			[
+				"scr",
+				"public\\js\\script.js"
+			],
+			[
+				"sty",
+				"public\\css\\style.css"
+			],
+			[
+				"global",
+				"app\\start\\global.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"helpers",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+			],
+			[
+				"illuminate/routing/rou",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php"
+			],
+			[
+				"inde",
+				"app\\views\\galleries\\index.blade.php"
+			],
+			[
+				"up",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"fil",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php"
+			],
+			[
+				"g",
+				"app\\controllers\\GalleriesController.php"
+			],
+			[
+				"nav",
+				"app\\views\\partials\\navigation.blade.php"
+			],
+			[
+				"outes",
+				"app\\routes.php"
+			],
+			[
+				"uplad",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"uploadedfile.php",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+			],
+			[
+				"pos",
+				"app\\models\\Post.php"
+			],
+			[
+				"data",
+				"app\\database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"databsa",
+				"app\\config\\database.php"
+			],
+			[
+				"da",
+				"app\\config\\database.php"
+			],
+			[
+				"ap",
+				"app\\config\\app.php"
+			],
+			[
+				"co",
+				"composer.json"
+			],
+			[
+				"layo",
+				"app\\views\\layout.blade.php"
+			],
+			[
+				"dbre",
+				"app\\Petrovic\\Repositories\\DbLinkRepository.php"
+			],
+			[
+				"linkr",
+				"app\\Petrovic\\Repositories\\LinkRepositoryInterface.php"
+			],
+			[
+				"litt",
+				"app\\Petrovic\\Shortener\\Facades\\Little.php"
+			],
+			[
+				"lin",
+				"app\\models\\Link.php"
+			],
+			[
+				"link",
+				"app\\models\\Link.php"
+			],
+			[
+				"little",
+				"app\\Petrovic\\Shortener\\LittleServiceProvider.php"
+			],
+			[
+				"create_li",
+				"app\\database\\migrations\\2014_02_27_160345_create_links_table.php"
+			],
+			[
+				"links",
+				"app\\controllers\\LinksController.php"
+			],
+			[
+				"order",
+				"app\\controllers\\OrderController.php"
+			],
+			[
+				"productco",
+				"app\\controllers\\ProductController.php"
+			],
+			[
+				"acco",
+				"app\\controllers\\AccountController.php"
+			],
+			[
+				"categor",
+				"app\\controllers\\CategoryController.php"
+			],
+			[
+				"models/",
+				"app\\models\\Category.php"
+			],
+			[
+				"produ",
+				"app\\models\\Product.php"
+			],
+			[
+				"",
+				"app\\controllers\\OrderController.php"
+			],
+			[
+				"database/seed/",
+				"app\\database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"orde",
+				"app\\database\\seeds\\OrderTableSeeder.php"
+			],
+			[
+				"cate",
+				"app\\database\\seeds\\CategoryTableSeeder.php"
+			],
+			[
+				"auth",
+				"app\\config\\auth.php"
+			],
+			[
+				"acc",
+				"app\\database\\seeds\\AccountTableSeeder.php"
+			],
+			[
+				"create_",
+				"app\\database\\migrations\\2013_12_28_184830_create_orders_table.php"
+			],
+			[
+				"compose",
+				"composer.json"
+			],
+			[
+				"sscrip",
+				"public\\js\\script.js"
+			],
+			[
+				"gal",
+				"app\\controllers\\GalleriesController.php"
+			],
+			[
+				"mail",
+				"app\\config\\mail.php"
+			],
+			[
+				"formbui",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Html\\FormBuilder.php"
+			],
+			[
+				"blade.php",
+				"app\\views\\galleries\\create.blade.php"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"D:\\sites\\l4.share_your_gallery\\l4.share-your-gallery.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"bind",
+				"bind"
+			],
+			[
+				"open",
+				"open"
+			],
+			[
+				"FormB",
+				"FormBuilder"
+			]
 		],
-		"width": 0.0
+		"width": 794.0
 	},
 	"settings":
 	{
@@ -174,7 +1314,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 274.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
