@@ -1,6 +1,6 @@
 <?php namespace Petrovic\Gallery;
 
-use Petrovic\Repositories\GalleryRepository as Gallery;
+use Petrovic\Repositories\GalleryRepository as GalleryRepo;
 use Petrovic\Repositories\ImageRepository as Image;
 use Petrovic\Repositories\TagRepository as Tag;
 use Petrovic\Repositories\ImageManipulationRepository as ImageManipulation;
@@ -12,7 +12,7 @@ class GalleryService {
 	protected $tag;
 	protected $imageManipulation;
 
-	public function __construct(Gallery $gallery, Image $image, Tag $tag, 
+	public function __construct(GalleryRepo $gallery, Image $image, Tag $tag, 
 		ImageManipulation $imageManipulation)
 	{
 		$this->gallery = $gallery;

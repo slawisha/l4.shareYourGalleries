@@ -1,7 +1,7 @@
 <?php
 
 use Petrovic\Repositories\UserRepository as User;
-use Petrovic\Repositories\GalleryRepository as Gallery;
+use Petrovic\Repositories\GalleryRepository as GalleryRepo;
 use Petrovic\Repositories\ImageRepository as Image;
 use Petrovic\Repositories\TagRepository as Tag;
 use Petrovic\Repositories\ImageManipulationRepository as ImageManipulation;
@@ -17,7 +17,7 @@ class GalleriesController extends \BaseController {
 	protected $imageManipulation;
 	protected $uploadValidator;
 
-	public function __construct(User $user, Gallery $gallery, Image $image, Tag $tag, 
+	public function __construct(User $user, GalleryRepo $gallery, Image $image, Tag $tag, 
 		ImageManipulation $imageManipulation, UploadValidator $UploadValidator)
 	{
 		$this->user = $user;
