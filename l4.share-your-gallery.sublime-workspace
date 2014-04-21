@@ -4,6 +4,7 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"Sess",
 				"Session-has	Session-has"
 			],
@@ -118,12 +119,21 @@
 			[
 				"display",
 				"display:   (property)"
+=======
+				"gall",
+				"galleryDescription"
+			],
+			[
+				"ga",
+				"galleryName"
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 			],
 			[
 				"gallery",
 				"galleryTags"
 			],
 			[
+<<<<<<< HEAD
 				"findG",
 				"findGalleryTags"
 			],
@@ -432,10 +442,13 @@
 				"movedImages"
 			],
 			[
+=======
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 				"in",
 				"in_array"
 			],
 			[
+<<<<<<< HEAD
 				"mod",
 				"movedImages"
 			],
@@ -514,11 +527,103 @@
 			[
 				"Ro",
 				"Route	Laravel: Route::get()"
+=======
+				"galler",
+				"galleryUrl"
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 902,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Petrovic/Validation/UploadValidator.php",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/GalleriesController.php",
+			"settings":
+			{
+				"buffer_size": 6959,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Petrovic/Gallery/GalleryService.php",
+			"settings":
+			{
+				"buffer_size": 2311,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Petrovic/Gallery/Facades/Gallery.php",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Petrovic/Gallery/GalleryServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+			"settings":
+			{
+				"buffer_size": 8295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/app.php",
+			"settings":
+			{
+				"buffer_size": 7164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+			"settings":
+			{
+				"buffer_size": 5681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+			"settings":
+			{
+				"buffer_size": 9194,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -598,6 +703,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/d/sites/l4.share_your_gallery/public/gallery/david71/HugeG/1397763125-Žurka za dan škole 13.12.2012.jpg",
 		"/d/sites/l4.share_your_gallery/public/gallery/david71/zzzzzzzzzzzzzzzzzzz/1397763738-Žurka za dan škole 13.12.2012.jpg",
 		"/d/sites/l4.share_your_gallery/.gitignore",
@@ -730,6 +836,16 @@
 	"find":
 	{
 		"height": 44.0
+=======
+		"/D/sites/l4.shareyourgalleries/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Petrovic Family/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 31.0
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 	},
 	"find_in_files":
 	{
@@ -743,6 +859,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"upload_max_filesize",
 			"::make",
 			"Auth::user()->username",
@@ -800,6 +917,9 @@
 			"Gallery",
 			"upload",
 			"uploads"
+=======
+			"Little"
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -817,18 +937,337 @@
 	"groups":
 	[
 		{
+			"selected": 8,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Petrovic/Validation/UploadValidator.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								766,
+								766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/GalleriesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 275.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Petrovic/Gallery/GalleryService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Petrovic/Gallery/Facades/Gallery.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							],
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Petrovic/Gallery/GalleryServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1531,
+								1531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5240,
+								5253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6434.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7059,
+								7059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3671.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3870,
+								3870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4179,
+								4196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6460.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
+<<<<<<< HEAD
 		"height": 44.0
 	},
 	"input":
 	{
 		"height": 38.0
+=======
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 41.0
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 	},
 	"layout":
 	{
@@ -856,7 +1295,11 @@
 	"project": "l4.share-your-gallery.sublime-project",
 	"replace":
 	{
+<<<<<<< HEAD
 		"height": 64.0
+=======
+		"height": 58.0
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -865,6 +1308,7 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"insta",
 				"install.sh"
 			],
@@ -883,12 +1327,17 @@
 			[
 				"illuminate/valida",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Factory.php"
+=======
+				"uploadedfile",
+				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 			],
 			[
 				"app",
 				"app\\config\\app.php"
 			],
 			[
+<<<<<<< HEAD
 				"upload",
 				"vendor\\symfony\\http-foundation\\Symfony\\Component\\HttpFoundation\\File\\UploadedFile.php"
 			],
@@ -1271,6 +1720,22 @@
 			[
 				"blade.php",
 				"app\\views\\galleries\\create.blade.php"
+=======
+				"filesistem",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php"
+			],
+			[
+				"databas",
+				"app\\config\\database.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"upda",
+				"C:\\Users\\Petrovic Family\\AppData\\Roaming\\Sublime Text 3\\Packages\\Default\\Preferences.sublime-settings"
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 			]
 		],
 		"width": 0.0
@@ -1314,7 +1779,11 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
+<<<<<<< HEAD
 	"side_bar_width": 274.0,
+=======
+	"side_bar_width": 247.0,
+>>>>>>> 8dc65ea01e02af335a53ae96828afcae589d0359
 	"status_bar_visible": true,
 	"template_settings":
 	{

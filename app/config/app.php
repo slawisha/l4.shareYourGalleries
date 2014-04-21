@@ -107,7 +107,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
-		'Intervention\Image\ImageServiceProvider'
+		'Intervention\Image\ImageServiceProvider',
+		'Petrovic\Gallery\GalleryServiceProvider'
 
 	),
 
@@ -174,7 +175,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-		'ImageIntervention' 		  => 'Intervention\Image\Facades\Image'
+		'ImageIntervention' => 'Intervention\Image\Facades\Image',
+		'Gallery'         => 'Petrovic\Gallery\Facades\Gallery'
 	),
 
 );
