@@ -1,6 +1,6 @@
 /bootstrap/compiled.php
 /vendor
-/.vagrant
+.vagrant
 composer.phar
 composer.lock
 .env.local.php

@@ -88,14 +88,17 @@ class GalleryService {
 			{
 
 				$imageUrl = time() . '-' . $image->getClientOriginalName();
-
+				
 				$image->move($galleryUrl , $imageUrl);
-				$imagePath = $galleryUrl . '/' . $imageUrl;
+				$imagePath = ($galleryUrl . '/' . $imageUrl);
+				//dd($imagePath);
+
 				$imageFile = $this->imageManipulation->resizeImageFile($imagePath, 1024);
 				$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60);
-				//save into db
+
 				$this->image->save( ['url' => $imageUrl, 'gallery_id' => $galleryId, 'order'=>$imageOrder] );
 				$imageOrder++;
+				
 			}
 		}	
 	}

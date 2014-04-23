@@ -63,8 +63,8 @@ sudo mv composer.phar /usr/local/bin/composer
 cd /vagrant
 
 echo "Creating Mysql Database"
-echo "CREATE DATABASE IF NOT EXISTS l4shareyg" | mysql -uroot -proot 
-echo "CHARACTER SET = utf8"
+echo "CREATE DATABASE IF NOT EXISTS l4shareyg CHARACTER SET = utf8" | mysql -uroot -proot 
+
 
 echo "Running migrations"
 php artisan migrate
