@@ -15,8 +15,8 @@ class GalleryService {
 	protected $tag;
 	protected $imageManipulation;
 
-	public function __construct(GalleryRepo $gallery, Image $image, Tag $tag, 
-		ImageManipulation $imageManipulation)
+
+	public function __construct(GalleryRepo $gallery, Image $image, Tag $tag, ImageManipulation $imageManipulation)
 	{
 		$this->gallery = $gallery;
 		$this->image = $image;
@@ -24,12 +24,14 @@ class GalleryService {
 		$this->imageManipulation = $imageManipulation;
 	}
 
+
 	/**
 	 * saves gallery into db and creates gallery folder
 	 * @param  string $galleryName      
 	 * @param  string $galleryDescription 
 	 * @return void
 	 */
+
 	public function save($galleryName, $galleryDescription)
 	{
 		$input = [
@@ -48,6 +50,7 @@ class GalleryService {
 		//save gallery
 		$this->gallery->save($input);
 	}
+
 
 	/**
 	 * pdate gallery
@@ -78,10 +81,12 @@ class GalleryService {
 	 */
 	private function uploadImages($upload, $galleryUrl, $galleryId, $imageOrder)
 	{
+
 		foreach($upload as $image) 
 		{
 			if( !is_null($image) && $image->isValid() )
 			{
+
 				$imageUrl = time() . '-' . $image->getClientOriginalName();
 
 				$image->move($galleryUrl , $imageUrl);
