@@ -176,7 +176,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 		'ImageIntervention' => 'Intervention\Image\Facades\Image',
-		'Gallery'         => 'Petrovic\Gallery\Facades\Gallery'
+		'Galleryfy'         => 'Petrovic\Gallery\Facades\Galleryfy'
 	),
 
 );

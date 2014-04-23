@@ -2,9 +2,6 @@
 
 use Petrovic\Repositories\UserRepository as User;
 use Petrovic\Repositories\GalleryRepository as GalleryRepo;
-use Petrovic\Repositories\ImageRepository as Image;
-use Petrovic\Repositories\TagRepository as Tag;
-use Petrovic\Repositories\ImageManipulationRepository as ImageManipulation;
 use Petrovic\Validation\ValidationException;
 use Petrovic\Validation\UploadValidator as UploadValidator;
 
@@ -12,19 +9,12 @@ class GalleriesController extends \BaseController {
 
 	protected $user;
 	protected $gallery;
-	protected $image;
-	protected $tag;
-	protected $imageManipulation;
 	protected $uploadValidator;
 
-	public function __construct(User $user, GalleryRepo $gallery, Image $image, Tag $tag, 
-		ImageManipulation $imageManipulation, UploadValidator $UploadValidator)
+	public function __construct(User $user, GalleryRepo $gallery, UploadValidator $UploadValidator)
 	{
 		$this->user = $user;
 		$this->gallery = $gallery;
-		$this->image = $image;
-		$this->tag = $tag;
-		$this->imageManipulation = $imageManipulation;
 		$this->uploadValidator = $UploadValidator;
 		$this->beforeFilter('auth');
 		$this->beforeFilter('user',['except'=>['show','all']]);
@@ -50,7 +40,6 @@ class GalleriesController extends \BaseController {
 	{
 		$galleries = $this->gallery->all();
 
-		//dd($galleries);
 		return View::make('galleries.all')->withGalleries($galleries)
 									->withTitle('Manage galleries');
 	}
@@ -81,11 +70,11 @@ class GalleriesController extends \BaseController {
 			if( ! $this->uploadValidator->validate(Request::file('images')) ) 
 				return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
 
-			Gallery::save(Input::get('gallery_name'), Input::get('gallery_description'));
+			Galleryfy::save(Input::get('gallery_name'), Input::get('gallery_description'));
 			
-			Gallery::uploadAndSaveImages(Input::file('images'), $galleryName);
+			Galleryfy::uploadAndSaveImages(Input::file('images'), Input::get('gallery_name'));
 
-			Gallery::saveTags(Input::get('gallery_tags'));
+			Galleryfy::saveTags(Input::get('gallery_tags'));
 
 			return Redirect::route('users.galleries.index', ['userId'=>$userId])
 						->withFlashMessage('Gallery created succesufuly');
@@ -131,7 +120,7 @@ class GalleriesController extends \BaseController {
 		$images = $this->gallery->findGalleryImages($id);
 		$userShares = $this->user->userShares(Auth::user()->id);
 		$galleryTags = $this->gallery->findGalleryTags($id);
-		//dd($images);
+
 		return View::make('galleries.edit')->withTitle($gallery->name)->
 							withGallery($gallery)
 							->withImages($images)
@@ -148,64 +137,19 @@ class GalleriesController extends \BaseController {
 	public function update($userId, $id)
 	{
 		try{
-		//find old gallery name
-		$oldGalleryPath = public_path() . '/gallery/' . $this->gallery->findById($id)->url;
-		//rename and move images
-		$galleryName = Input::get('gallery_name');
-
 		//validate multiple upload
 		if( $this->uploadValidator->validate(Request::file('images')) == false ) 
 			return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
 
-		//validate rest of form
-		$validationData = ['name'=>$galleryName];
-		Event::fire('gallery.saving', [$validationData]);
+		Galleryfy::renameGallery(Input::get('gallery_name'), $id);
 
-		//rename gallery
-		$newGalleryPath = public_path() . '/gallery/' . $this->gallery->findById($id)->user->username . '/' . $galleryName;
-		$this->gallery->renameGallery($oldGalleryPath, $newGalleryPath);
+		Galleryfy::updateGallery(Input::get('gallery_name'), Input::get('description'), $id);
 
-		$galleryDescription = Input::get('gallery_description');
-		$galleryTags = Input::get('gallery_tags');
-		$galleryUrl = public_path() . '/gallery/' . $this->gallery->findById($id)->user->username . '/' . $galleryName . '/';
-		$galleryTags = explode(',', Input::get('gallery_tags'));
+		Galleryfy::uploadMoreImages(Input::file('images'), Input::get('gallery_name'), $id);
 
-		$input = [
-			'name' => $galleryName, 
-			'description' => $galleryDescription, 
-			'url' => $this->gallery->findById($id)->user->username . '/' . $galleryName . '/'
-		];
+		Galleryfy::deleteTags($id);
 
-		//update gallery
-		$this->gallery->update($id, $input);
-
-		$imageOrder = $this->gallery->countGalleryImages($id) + 1;
-
-		//save and move images
-
-		foreach(Request::file('images') as $image) 
-		{
-			if( !is_null($image) && $image->isValid() )
-			{
-			$imageUrl = time() . '-' . $image->getClientOriginalName();
-			$image->move($galleryUrl , $imageUrl);
-			$imagePath = $galleryUrl . '/' . $imageUrl;
-			$imageFile = $this->imageManipulation->resizeImageFile($imagePath, 1024);
-			$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60);
-
-			$this->image->save( ['url' => $imageUrl, 'gallery_id' => $id, 'order' => $imageOrder] );
-			$imageOrder++;
-			}			
-		}
-
-		//delete old tags
-		$this->tag->delete($id);
-
-		//save new tags
-		foreach ($galleryTags as $tag) {
-			
-			$this->tag->save( ['name' => $tag, 'gallery_id' => $id] );
-		}
+		Galleryfy::saveTags(Input::get('gallery_tags'), $id);
 
 		if( is_admin() ) return Redirect::route('galleries.all')
 				->withFlashMessage('Gallery updated succesufuly');

@@ -5,7 +5,7 @@ class UploadValidator{
 
 	protected $errors;
 
-	protected $allowedTypes = ['jpg', 'jpeg', 'png', 'gif', 'bmp'];
+	protected $allowedTypes = ['jpg', 'JPG', 'jpeg','JPEG', 'png', 'PNG', 'gif', 'GIF', 'bmp', 'BMP'];
 
 	/**
 	 * validate multiple Upload
@@ -30,7 +30,7 @@ class UploadValidator{
 					return false;
 				}
 
-				if( ! in_array($item->getClientMimeType(), $this->allowedTypes)  )
+				if( ! in_array($item->getClientOriginalExtension(), $this->allowedTypes)  )
 				{
 					$this->errors = "Unsupported file format. 
 						Upload only 'jpg', 'jpeg', 'png', 'gif', 'bmp' image formats.";

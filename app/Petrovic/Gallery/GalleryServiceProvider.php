@@ -11,6 +11,6 @@ class GalleryServiceProvider extends ServiceProvider
      */
 	public function register()
 	{
-		$this->app->bind('Gallery', 'Petrovic\Gallery\GalleryService');
+		$this->app->bind('Galleryfy', 'Petrovic\Gallery\GalleryService');
 	}
 }
