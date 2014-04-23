@@ -143,7 +143,7 @@ class GalleryService {
 	public function saveTags($galleryTagsString, $galleryId = null)
 	{
 		if( is_null($galleryId) ) $galleryId = $this->gallery->findLastUpdatedId();
-		if( !empty($galleryTags) ) 
+		if( !empty($galleryTagsString) ) 
 		{
 			$galleryTags = explode(',', $galleryTagsString);
 			//save tags
