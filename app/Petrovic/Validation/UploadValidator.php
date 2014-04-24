@@ -1,5 +1,6 @@
 <?php namespace Petrovic\Validation;
 
+use Illuminate\Support\MessageBag as MessageBag;
 
 class UploadValidator{
 
@@ -16,7 +17,7 @@ class UploadValidator{
 	{
 		if( is_null($upload) )
 		{
-			$this->errors = 'Upload exceeds maximum size of ' . ini_get('post_max_size');
+			$this->errors = new MessageBag(['images' => 'Upload exceeds maximum size of ' . ini_get('post_max_size')]);
 			return false; 
 		}
 
@@ -26,14 +27,13 @@ class UploadValidator{
 			{
 				if( ! $item->isValid() ) 
 				{
-					$this->errors = $item->getErrorMessage();
+					$this->errors = new MessageBag(['images' => $item->getErrorMessage()]);
 					return false;
 				}
 
 				if( ! in_array($item->getClientOriginalExtension(), $this->allowedTypes)  )
 				{
-					$this->errors = "Unsupported file format. 
-						Upload only 'jpg', 'jpeg', 'png', 'gif', 'bmp' image formats.";
+					$this->errors = new MessageBag(['images'=>"Unsupported file format. Upload only 'jpg', 'jpeg', 'png', 'gif', 'bmp' image formats."]);
 					return false;
 				}
 			}

@@ -4,6 +4,7 @@ use Petrovic\Repositories\UserRepository as User;
 use Petrovic\Repositories\GalleryRepository as GalleryRepo;
 use Petrovic\Validation\ValidationException;
 use Petrovic\Validation\UploadValidator as UploadValidator;
+use Petrovic\Validation\UploadValidationException as UploadValidationException;
 
 class GalleriesController extends \BaseController {
 
@@ -68,7 +69,7 @@ class GalleriesController extends \BaseController {
 		try{
 			//validate multiple upload
 			if( ! $this->uploadValidator->validate(Request::file('images')) ) 
-				return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
+				throw new UploadValidationException($this->uploadValidator->getErrors());
 
 			Galleryfy::save(Input::get('gallery_name'), Input::get('gallery_description'));
 			
@@ -78,6 +79,11 @@ class GalleriesController extends \BaseController {
 
 			return Redirect::route('users.galleries.index', ['userId'=>$userId])
 						->withFlashMessage('Gallery created succesufuly');
+		}
+
+		catch(UploadValidationException $e)
+		{
+			return Redirect::back()->withInput()->withErrors($e->getErrors());
 		}
 
 		catch(ValidationException $e )
@@ -100,7 +106,6 @@ class GalleriesController extends \BaseController {
 		$userShares = $this->user->userShares(Auth::user()->id);
 		$galleryTags = $this->gallery->findGalleryTagsCollection($id);
 		
-		//dd($galleryTags);
 		return View::make('galleries.show')->withTitle($gallery->name)
 							->withGallery($gallery)
 							->withImages($images)
@@ -139,7 +144,7 @@ class GalleriesController extends \BaseController {
 		try{
 		//validate multiple upload
 		if( $this->uploadValidator->validate(Request::file('images')) == false ) 
-			return Redirect::back()->withInput()->withErrors( Session::put('error', $this->uploadValidator->getErrors()) );
+			throw new UploadValidationException($this->uploadValidator->getErrors());
 
 		Galleryfy::renameGallery(Input::get('gallery_name'), $id);
 
@@ -156,6 +161,11 @@ class GalleriesController extends \BaseController {
 
 		return Redirect::route('users.galleries.index',['userId'=>$userId])
 				->withFlashMessage('Gallery updated succesufuly');
+		}
+
+		catch(UploadValidationException $e)
+		{
+			return Redirect::back()->withInput()->withErrors($e->getErrors());
 		}
 
 		catch(ValidationException $e )

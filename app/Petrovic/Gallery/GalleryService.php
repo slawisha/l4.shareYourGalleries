@@ -89,13 +89,11 @@ class GalleryService {
 
 				$imageUrl = time() . '-' . $image->getClientOriginalName();
 				
-				$imageFile = $this->imageManipulation->resizeImageFile($image->getRealPath(), 1024);
+				$imageFile = $this->imageManipulation->resizeImageFile($image->getRealPath(), 1024); //bigger size 1024px
 				// $image->move($galleryUrl , $imageUrl);
-				 $imagePath = ($galleryUrl . '/' . $imageUrl);
-				//dd($imagePath);
+				$imagePath = ($galleryUrl . '/' . $imageUrl);
 
-				//$imageFile = $this->imageManipulation->resizeImageFile($imagePath, 1024);
-				$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60);
+				$this->imageManipulation->saveImageFile($imageFile, $imagePath, 60); //quality 60%
 
 				$this->image->save( ['url' => $imageUrl, 'gallery_id' => $galleryId, 'order'=>$imageOrder] );
 				$imageOrder++;

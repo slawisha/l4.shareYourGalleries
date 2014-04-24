@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-
+  
   <div class="col-md-8">
     <h3 class="username bg bg-info">Create gallery</h3>
     {{ Form::open(['route' => ['users.galleries.store','userId'=>Auth::user()->id], 'files' => true]) }}
@@ -21,15 +21,12 @@
     <div class="form-group">
       {{ Form::label('images','Upload your images') }}
       {{ Form::file('images[]',['multiple' =>''])}}
+      {{ $errors->first('images','<div class="error">:message</div>') }}
     </div>
     <div class="form-group">
       {{ Form::submit('Upload', ['class'=>'btn btn-primary']) }}
     </div>
   {{ Form::close()}}
-  @if(Session::has('error'))
-  <p class="error"> {{ Session::get('error') }} </p> 
-  {{ Session::forget('error')}}
-  @endif
   </div>
   @include('partials.aside')
 @stop
