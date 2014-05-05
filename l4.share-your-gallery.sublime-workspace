@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"err",
+				"error"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"Upload",
+				"UploadValidationException"
+			],
+			[
 				"ima",
 				"imageUrl"
 			],
@@ -502,108 +514,40 @@
 			[
 				"Pass",
 				"Password-reset	Password-reset"
-			],
-			[
-				"Auth",
-				"Auth	Laravel: Auth::user()"
-			],
-			[
-				"Repos",
-				"RepositoryInterface"
-			],
-			[
-				"Inp",
-				"Input	Laravel: Input::get()"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/d/sites/l4.share_your_gallery/.gitignore",
-			"settings":
-			{
-				"buffer_size": 207,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
 			"settings":
 			{
-				"buffer_size": 5058,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryService.php",
-			"settings":
-			{
-				"buffer_size": 5106,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/ImageManipulationRepository.php",
-			"settings":
-			{
-				"buffer_size": 761,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/app/views/galleries/show.blade.php",
-			"settings":
-			{
-				"buffer_size": 1252,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/install.sh",
-			"settings":
-			{
-				"buffer_size": 2317,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/public/css/style.css",
-			"settings":
-			{
-				"buffer_size": 2538,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/app/views/pages/members.blade.php",
-			"settings":
-			{
-				"buffer_size": 1193,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/app/config/app.php",
-			"settings":
-			{
-				"buffer_size": 7168,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/d/sites/l4.share_your_gallery/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
-			"settings":
-			{
-				"buffer_size": 9194,
+				"buffer_size": 5274,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+			"file": "/d/sites/l4.share_your_gallery/bootstrap/start.php",
 			"settings":
 			{
-				"buffer_size": 23241,
+				"buffer_size": 2315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+			"settings":
+			{
+				"buffer_size": 26082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+			"settings":
+			{
+				"buffer_size": 19363,
 				"line_ending": "Unix"
 			}
 		}
@@ -615,7 +559,11 @@
 		"selected_items":
 		[
 			[
-				"tinsta",
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -623,7 +571,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
+				"tinsta",
 				"Package Control: Install Package"
 			],
 			[
@@ -637,10 +585,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
 			],
 			[
 				"Snippet: ",
@@ -687,6 +631,30 @@
 	"file_history":
 	[
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UploadValidator.php",
+		"/d/sites/l4.share_your_gallery/.gitignore",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryService.php",
+		"/d/sites/l4.share_your_gallery/composer.json",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
+		"/d/sites/l4.share_your_gallery/vendor/symfony/finder/Symfony/Component/Finder/Finder.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/d/sites/l4.share_your_gallery/app/routes.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Workbench/stubs/gitignore.txt",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/ValidationException.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UploadValidationException.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/edit.blade.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/create.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+		"/d/sites/l4.share_your_gallery/app/config/app.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php",
+		"/d/sites/l4.share_your_gallery/app/views/galleries/show.blade.php",
+		"/d/sites/l4.share_your_gallery/install.sh",
+		"/d/sites/l4.share_your_gallery/public/css/style.css",
+		"/d/sites/l4.share_your_gallery/app/views/pages/members.blade.php",
+		"/d/sites/l4.share_your_gallery/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UserValidator.php",
+		"/d/sites/l4.share_your_gallery/vendor/sebastian/exporter/src/Exception.php",
 		"/d/sites/l4.share_your_gallery/public/gallery/dulce.lesch/Greece 3/1398283520-%C4%8CDSC_4299.JPG",
 		"/d/sites/l4.share_your_gallery/vendor/intervention/image/src/Intervention/Image/Image.php",
 		"/d/sites/l4.share_your_gallery/public/gallery/dulce.lesch/Greece 3/1398279970-ČDSC_4299.JPG",
@@ -700,8 +668,6 @@
 		"/d/sites/l4.share_your_gallery/public/gallery/dulce.lesch/Greece 3/1398273820-žurka za dan skole 13.12.2012.jpg",
 		"/d/sites/l4.share_your_gallery/public/gallery/dulce.lesch/Greece 3/1398271698-zurka za dan škole 13.12.2012.jpg",
 		"/d/sites/l4.share_your_gallery/public/gallery/dulce.lesch/Greece 3/1398271556-Žurka za dan škole 13.12.2012.jpg",
-		"/d/sites/l4.share_your_gallery/app/config/app.php",
-		"/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryService.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryServiceProvider.php",
 		"/d/sites/l4.share_your_gallery/.vagrant/machines/default/virtualbox/action_provision",
 		"/d/sites/l4.share_your_gallery/.vagrant/machines/default/virtualbox/action_set_name",
@@ -710,26 +676,17 @@
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/GalleryRepository.php",
 		"/d/sites/l4.share_your_gallery/app/models/Gallery.php",
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php",
-		"/d/sites/l4.share_your_gallery/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
 		"/d/sites/l4.share_your_gallery/public/gallery/david71/HugeG/1397763125-Žurka za dan škole 13.12.2012.jpg",
 		"/d/sites/l4.share_your_gallery/public/gallery/david71/zzzzzzzzzzzzzzzzzzz/1397763738-Žurka za dan škole 13.12.2012.jpg",
-		"/d/sites/l4.share_your_gallery/.gitignore",
-		"/d/sites/l4.share_your_gallery/install.sh",
 		"/d/sites/l4.share_your_gallery/app/views/sessions/create.blade.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/GalleryValidator.php",
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Http/Request.php",
 		"/d/sites/l4.share_your_gallery/vendor/symfony/filesystem/Symfony/Component/Filesystem/Filesystem.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/ImageRepository.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/helpers.php",
-		"/d/sites/l4.share_your_gallery/app/views/galleries/create.blade.php",
-		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
 		"/d/sites/l4.share_your_gallery/vendor/fzaninotto/faker/src/Faker/Factory.php",
 		"/d/sites/l4.share_your_gallery/app/start/global.php",
-		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
 		"/d/sites/l4.share_your_gallery/app/models/User.php",
-		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php",
-		"/d/sites/l4.share_your_gallery/composer.json",
-		"/d/sites/l4.share_your_gallery/app/views/galleries/edit.blade.php",
 		"/d/sites/l4.share_your_gallery/app/views/galleries/all.blade.php",
 		"/d/sites/l4.share_your_gallery/app/views/galleries/index.blade.php",
 		"/d/sites/l4.share_your_gallery/app/controllers/PagesController.php",
@@ -739,7 +696,6 @@
 		"/d/sites/l4.share_your_gallery/app/filters.php",
 		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Auth/Guard.php",
-		"/d/sites/l4.share_your_gallery/public/css/style.css",
 		"/d/sites/l4.share_your_gallery/app/views/password/remind.blade.php",
 		"/d/sites/l4.share_your_gallery/app/views/pages/register.blade.php",
 		"/d/sites/l4.share_your_gallery/app/controllers/RemindersController.php",
@@ -750,25 +706,21 @@
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
 		"/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
 		"/d/sites/l4.share_your_gallery/app/controllers/UsersController.php",
-		"/d/sites/l4.share_your_gallery/app/views/galleries/show.blade.php",
 		"/d/sites/l4.share_your_gallery/vendor/bin/phpunit",
 		"/d/sites/l4.share_your_gallery/vendor/bin/phpunit.bat",
 		"/d/sites/l4.share_your_gallery/bootstrap/start.php",
-		"/d/sites/l4.share_your_gallery/app/routes.php",
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Remote/RemoteServiceProvider.php",
 		"/d/sites/l4.share_your_gallery/app/views/pages/search.blade.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/UserRepository.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/TagRepository.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/UserShareRepository.php",
 		"/d/sites/l4.share_your_gallery/app/models/UserShare.php",
-		"/d/sites/l4.share_your_gallery/app/views/pages/members.blade.php",
 		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
 		"/d/sites/l4.share_your_gallery/app/views/pages/home.blade.php",
 		"/d/sites/l4.share_your_gallery/public/js/script.js",
 		"/d/sites/l4.share_your_gallery/app/controllers/ImagesController.php",
 		"/d/sites/l4.share_your_gallery/app/views/layouts/master.blade.php",
 		"/d/sites/l4.share_your_gallery/app/models/Image.php",
-		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UserValidator.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/Validator.php",
 		"/d/sites/l4.share_your_gallery/app/views/users/index.blade.php",
 		"/d/sites/l4.share_your_gallery/app/views/sharings/index.blade.php",
@@ -805,15 +757,7 @@
 		"/d/sites/l4.urlshortener/app/config/app.php",
 		"/d/sites/l4.urlshortener/app/Petrovic/Shortener/LittleServiceProvider.php",
 		"/d/sites/l4.urlshortener/app/database/seeds/DatabaseSeeder.php",
-		"/d/sites/l4.urlshortener/app/database/seeds/LinksTableSeeder.php",
-		"/d/sites/l4.urlshortener/app/Petrovic/Exceptions/NonExistentHashException.php",
-		"/d/sites/l4.urlshortener/composer.json",
-		"/d/sites/l4.urlshortener/app/views/links/create.blade.php",
-		"/d/sites/l4.urlshortener/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
-		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/Laravel 4 Facades/Default (Windows).sublime-keymap",
-		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/d/sites/l4.urlshortener/app/database/migrations/2014_02_27_160345_create_links_table.php",
-		"/d/sites/l4.urlshortener/app/Petrovic/Facades/Little.php"
+		"/d/sites/l4.urlshortener/app/database/seeds/LinksTableSeeder.php"
 	],
 	"find":
 	{
@@ -912,24 +856,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/d/sites/l4.share_your_gallery/.gitignore",
+					"file": "/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 5274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								1770,
+								1770
 							]
 						],
 						"settings":
@@ -1038,293 +982,85 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
-					"semi_transient": false,
+					"file": "/d/sites/l4.share_your_gallery/bootstrap/start.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 5058,
+						"buffer_size": 2315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2144,
-								2144
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4056.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryService.php",
+					"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5106,
+						"buffer_size": 26082,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2590,
-								2590
+								4455,
+								4447
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1950.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/d/sites/l4.share_your_gallery/app/Petrovic/Repositories/ImageManipulationRepository.php",
-					"semi_transient": true,
+					"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 761,
+						"buffer_size": 19363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								686,
-								691
+								6480,
+								6520
 							]
 						],
 						"settings":
@@ -1333,517 +1069,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/d/sites/l4.share_your_gallery/app/views/galleries/show.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								281
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/d/sites/l4.share_your_gallery/install.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2172,
-								2172
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/d/sites/l4.share_your_gallery/public/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3666.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/d/sites/l4.share_your_gallery/app/views/pages/members.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1053,
-								1069
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/d/sites/l4.share_your_gallery/app/config/app.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								437
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/d/sites/l4.share_your_gallery/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6254,
-								6270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5071.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5873.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1894,6 +1120,62 @@
 		"selected_items":
 		[
 			[
+				"helper",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+			],
+			[
+				"finder",
+				"vendor\\symfony\\finder\\Symfony\\Component\\Finder\\Finder.php"
+			],
+			[
+				"files",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php"
+			],
+			[
+				"co",
+				"composer.json"
+			],
+			[
+				"rout",
+				"app\\routes.php"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"gitign",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Workbench\\stubs\\gitignore.txt"
+			],
+			[
+				"messgeb",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\MessageBag.php"
+			],
+			[
+				"/illuminate/validation/validator",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Validator.php"
+			],
+			[
+				"ap",
+				"app\\config\\app.php"
+			],
+			[
+				"illuminate/validation/factory",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Validation\\Factory.php"
+			],
+			[
+				"cre",
+				"app\\views\\galleries\\create.blade.php"
+			],
+			[
+				"edit",
+				"app\\views\\galleries\\edit.blade.php"
+			],
+			[
+				"exce",
+				"vendor\\sebastian\\exporter\\src\\Exception.php"
+			],
+			[
 				"eloq",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php"
 			],
@@ -1936,14 +1218,6 @@
 			[
 				"insta",
 				"install.sh"
-			],
-			[
-				"edit",
-				"app\\views\\galleries\\edit.blade.php"
-			],
-			[
-				"cre",
-				"app\\views\\galleries\\create.blade.php"
 			],
 			[
 				"illminate/validation",
@@ -2202,14 +1476,6 @@
 				"app\\config\\database.php"
 			],
 			[
-				"ap",
-				"app\\config\\app.php"
-			],
-			[
-				"co",
-				"composer.json"
-			],
-			[
 				"layo",
 				"app\\views\\layout.blade.php"
 			],
@@ -2331,7 +1597,7 @@
 		[
 			[
 				"",
-				"D:\\sites\\l4.share_your_gallery\\l4.share-your-gallery.sublime-project"
+				"D:\\sites\\sf2.framework\\sf2.framework.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2363,7 +1629,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 274.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

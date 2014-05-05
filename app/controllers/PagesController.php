@@ -40,8 +40,6 @@ class PagesController extends \BaseController {
 
 		$userShareGalleries = $this->user->findUserShareGalleries($userShareIds);
 
-		//dd($userShareGalleries);
-
 		return View::make('pages.members')->withTitle('Members')
 											->with('userShares', $userShares)
 											->with('userShareGalleries', $userShareGalleries);

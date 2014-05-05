@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-	<div class="col-md-8">
+	<div class="col-md-8 col-md-offset-2">
+	<h3 class="username bg bg-info">Gallery sharing:</h3>
 		@if($users)
 		<table class="table table-bordered">
 	  		<tr class="info"><th>Username</th><th>Status</th></tr>

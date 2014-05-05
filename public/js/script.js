@@ -4,6 +4,8 @@ jQuery(document).ready(function($) {
 		interval:3500
 	});
 
+	$('.carousel').carousel('cycle');
+
 	$('ul.sf-menu').superfish();
 
 	$('a.gallery-image').colorbox({ opacity:0.5 , rel:'group1' });

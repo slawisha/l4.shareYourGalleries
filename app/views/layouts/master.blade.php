@@ -8,7 +8,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/superfish.css') }}" >  
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" >  
-    <link rel="stylesheet" href="{{ URL::asset('css/colorbox.css') }}" >  
+    <link rel="stylesheet" href="{{ URL::asset('css/colorbox.css') }}" > 
+    <link rel="shortcut icon" href="{{ URL::asset('css/images/favicon.ico') }}"> 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -16,8 +17,9 @@
     <![endif]-->
   </head>
   <body>
-	  <div id="wrapper">
+	  <div id="wrapper" class=" ">
       @include('partials.navigation')   	
+      @yield('carousel')
     	<div class="container">
       <div class="row" id="content">
       @include('partials.flashMessages')

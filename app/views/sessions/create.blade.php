@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-	<h3>Log in</h3>
+	<h3 class="username bg bg-info">Log in</h3>
 	{{ Form::open(['url' =>'sessions/store']) }} 
 	<div class="form-group">
 	{{ Form::label('email', 'Email') }}

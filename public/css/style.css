@@ -1,14 +1,32 @@
+html {
+	background-color: #efefef;
+	background-image: url('images/noisy.jpg');	
+}
+
 #wrapper{
 	width: 100%;
-	font-family: sans-serif;
+	font-family: "Open Sans", sans-serif;
+	background-color: #efefef;
+	background-image: url('images/noisy.jpg');
+	color: #757575;
 }
 
 #content{margin: 40px 0;}
 
+.navbar{padding: 0}
+
 .navbar-default {
 	background-color: #428bca;
-	padding: 20px 0;
+	padding: 0px 0;
 }
+
+.navbar{margin-bottom: 0; border-radius: 0; border:0;}
+
+.navbar-right .form-group{padding: 0;}
+
+	.navbar-right input{height: 28px;}
+
+.sf-menu {margin: 3px 0px 0 0;}
 
 .sf-menu li{
 	background-color: #428bca !important;	
@@ -35,9 +53,10 @@
 	}
 
 	.navbar-brand{
-		font-family: monaco;
+		font-family: monaco, monospace;
 		text-transform: uppercase;
-		letter-spacing: -1px;
+		letter-spacing: -2px;
+		/*word-spacing: -5px;*/
 		font-size: 20px;
 	}
 
@@ -48,40 +67,56 @@
 
 /*** carousel ***/
 #home-carousel{
-	background-color: #eee;
-	padding: 20px;
-	border: 1px solid #ddd;
-	border-radius: 2px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 .carousel-caption{
-	color: #666;
+	color: #fff;
 	width: 100%;
 	text-align: center;
 	padding: 0;
 	left: 0;
-	bottom: -10px;
-	/*background-color: #fff;*/
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.5);
 }
 
-.carousel-caption h3{
-	width: 100%;
+.carousel-control{
+position: absolute;
+top: 40%;
+left: 15px;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+font-size: 40px;
+font-weight: 100;
+line-height: 30px;
+color: white;
+text-align: center;
+/*background-color: rgba(0,0,0,0.5);*/
 }
 
-.carousel-indicators{
-	bottom: -10px;
+.right-arrow{
+position: absolute;
+top: 40%;
+left:96%;
 }
+
 
 /*** .container ***/
 .container{
 	/*margin-bottom: 40px;*/
 }
 
+/*** home ***/
+.instruct {margin-top: 20px;}
+
 /*** members.index ***/
 
 .username {
 	padding: 10px;
 	margin-top: 0;
+	margin-bottom: 30px;
 	border: 1px solid #bce8f1;
 	border-radius: 5px;
 	color: #31708f;
@@ -93,14 +128,15 @@
 
 .single-gallery{padding: 20px;}
 
-.gallery-thumbnail{ color:#bce8f1; }
+/*.gallery-thumbnail{ color:#bce8f1; }*/
 
 .galleries-row{
 	/*border-top: 1px dotted #999;*/
 	/*border-bottom: 1px dotted #999;*/
 	padding: 10px 0;
 }
-
+/*** table ***/
+td{background-color: #fff}
 
 
 /*** image list (galleries.edit) ***/
@@ -168,4 +204,8 @@ footer{
 
 .center{text-align: center;}
 
+.img-center{display:block; margin: 0 auto;}
+
 .description{font-style: italic; color:#666;}
+
+.vertical-center{position:relative; top:30%; height:240px; margin-top:-120px; /* negative half of the height */}
