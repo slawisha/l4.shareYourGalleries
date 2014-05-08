@@ -57,7 +57,7 @@ class UserRepository {
 
 			if( !$user->galleries->isEmpty() )
 
-			$userShareGalleries[] = [$user->username, $user->galleries];
+			$userShareGalleries[] = [[$user->username, $user->id], $user->galleries];
 		}
 
 		return $userShareGalleries;

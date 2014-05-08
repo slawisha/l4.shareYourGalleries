@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/superfish.css') }}" >  
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" >  
     <link rel="stylesheet" href="{{ URL::asset('css/colorbox.css') }}" > 
-    <link rel="shortcut icon" href="{{ URL::asset('css/images/favicon.ico') }}"> 
+     <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}"> 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>

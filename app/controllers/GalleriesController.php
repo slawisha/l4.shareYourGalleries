@@ -37,6 +37,10 @@ class GalleriesController extends \BaseController {
 									->with('userId',$userId);
 	}
 
+	/**
+	 * Show galleries of all users
+	 * @return Response 
+	 */
 	public function all()
 	{
 		$galleries = $this->gallery->all();

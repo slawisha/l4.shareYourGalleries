@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-	<h3 class="username bg bg-info">Please register:</h3>
+	<div class="login col-md-4 col-md-offset-3">
+	<h3 class="username bg bg-info center">Please register:</h3>
 	{{Form::open(['route' => 'users.store','role'=>'form']) }}
 	<div class="form-group">
 	{{ Form::label('username', 'Username') }}
@@ -27,4 +28,5 @@
 	{{ Form::submit('Register', array('class'=>'btn btn-primary submit'))}}
 	</div>
 	{{ Form::close() }}
+	</div>
 @stop

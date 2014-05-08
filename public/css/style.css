@@ -3,15 +3,16 @@ html {
 	background-image: url('images/noisy.jpg');	
 }
 
+body{font-family: "Open Sans", sans-serif;}
+
 #wrapper{
 	width: 100%;
-	font-family: "Open Sans", sans-serif;
 	background-color: #efefef;
 	background-image: url('images/noisy.jpg');
 	color: #757575;
 }
 
-#content{margin: 40px 0;}
+#content{margin: 60px 0;}
 
 .navbar{padding: 0}
 
@@ -53,7 +54,7 @@ html {
 	}
 
 	.navbar-brand{
-		font-family: monaco, monospace;
+		font-family: "comic-sans", monaco, monospace;
 		text-transform: uppercase;
 		letter-spacing: -2px;
 		/*word-spacing: -5px;*/
@@ -135,6 +136,12 @@ left:96%;
 	/*border-bottom: 1px dotted #999;*/
 	padding: 10px 0;
 }
+
+/***login ***/
+.login{margin-top: 100px;}
+
+	.login form {border: 1px dotted  #bbb; padding: 20px; border-radius: 4px;}
+
 /*** table ***/
 td{background-color: #fff}
 

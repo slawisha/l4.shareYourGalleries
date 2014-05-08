@@ -43,6 +43,7 @@ class GalleryRepository {
 		return Gallery::where('name', 'LIKE', '%' . $name . '%')->get();
 	}
 
+
 	/**
 	 * saves gallery into database
 	 * @param  array $input 

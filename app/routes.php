@@ -1,6 +1,5 @@
 <?php
 
-
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@home']);
 
 Route::get('login', ['as' => 'login', 'uses' => 'SessionsController@create']);
@@ -23,6 +22,8 @@ Route::post('images/delete/{id}', 'ImagesController@destroy');
 
 Route::post('images/sort', 'ImagesController@sortImages');
 
+Route::get('users/search/{owner_id}', ['as' => 'user.galleries', 'uses' => 'PagesController@searchGalleryByOwner']);
+
 Route::resource('users','UsersController');
 
 Route::get('galleries/all', ['as'=>'galleries.all', 'uses' => 'GalleriesController@all']);
@@ -32,10 +33,3 @@ Route::resource('users.galleries', 'GalleriesController');
 Route::resource('users.sharings', 'UserSharesController');
 
 Route::controller('password','RemindersController');
-
-Route::get('test', function()
-{
-	
-	var_dump( ini_get('upload_max_filesize') );
-	var_dump( ini_get('post_max_size') );
-});

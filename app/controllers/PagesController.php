@@ -40,6 +40,12 @@ class PagesController extends \BaseController {
 
 		$userShareGalleries = $this->user->findUserShareGalleries($userShareIds);
 
+		$userShareGalleries = Paginator::make($userShareGalleries, count($userShareGalleries), 3);
+
+		//$userShareGalleries = $paginator->getCollection();
+
+		//dd($paginator->toArray());
+
 		return View::make('pages.members')->withTitle('Members')
 											->with('userShares', $userShares)
 											->with('userShareGalleries', $userShareGalleries);
@@ -72,6 +78,17 @@ class PagesController extends \BaseController {
 		$searchResults = $this->gallery->findByIds($galleryIds);
 
 		//dd($searchResults);
+
+		$userShareIds = $this->userShare->sharingIds(Auth::user()->id);
+
+		return View::make('pages.search')->with('searchResults', $searchResults)
+										->withTitle('Search results')
+										->with('userShareIds', $userShareIds);
+	}
+
+	public function searchGalleryByOwner($ownerId)
+	{
+		$searchResults = $this->user->findUsersGalleries($ownerId);
 
 		$userShareIds = $this->userShare->sharingIds(Auth::user()->id);
 

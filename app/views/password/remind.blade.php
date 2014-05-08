@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-	<h3>Reset your password</h3>
+	<div class="login col-md-4 col-md-offset-3">
+	<h3 class="username bg bg-info center">Reset your password</h3>
 	{{ Form::open()}}
 	<div class="form-group">
 	{{ Form::label('email', 'Email') }}
@@ -12,6 +13,7 @@
 	{{ Form::submit('Reset', array('class'=>'btn btn-primary submit'))}}
 	</div>
 	{{ Form::close() }}
+	</div>
 
 	@if( Session::has('error') )
 		<p class="error">{{ Session::get('error') }}</p>

@@ -523,15 +523,15 @@
 			"file": "/d/sites/l4.share_your_gallery/app/controllers/GalleriesController.php",
 			"settings":
 			{
-				"buffer_size": 5274,
+				"buffer_size": 5338,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/d/sites/l4.share_your_gallery/bootstrap/start.php",
+			"file": "/d/sites/l4.share_your_gallery/bootstrap/autoload.php",
 			"settings":
 			{
-				"buffer_size": 2315,
+				"buffer_size": 2453,
 				"line_ending": "Unix"
 			}
 		},
@@ -630,6 +630,7 @@
 	},
 	"file_history":
 	[
+		"/d/sites/l4.share_your_gallery/vendor/laravel/framework/src/Illuminate/Container/Container.php",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Validation/UploadValidator.php",
 		"/d/sites/l4.share_your_gallery/.gitignore",
 		"/d/sites/l4.share_your_gallery/app/Petrovic/Gallery/GalleryService.php",
@@ -756,8 +757,7 @@
 		"/d/sites/l4.urlshortener/app/Petrovic/Shortener/Facades/Little.php",
 		"/d/sites/l4.urlshortener/app/config/app.php",
 		"/d/sites/l4.urlshortener/app/Petrovic/Shortener/LittleServiceProvider.php",
-		"/d/sites/l4.urlshortener/app/database/seeds/DatabaseSeeder.php",
-		"/d/sites/l4.urlshortener/app/database/seeds/LinksTableSeeder.php"
+		"/d/sites/l4.urlshortener/app/database/seeds/DatabaseSeeder.php"
 	],
 	"find":
 	{
@@ -856,7 +856,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -865,15 +865,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5274,
+						"buffer_size": 5338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1770,
-								1770
+								0,
+								0
 							]
 						],
 						"settings":
@@ -993,19 +993,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/d/sites/l4.share_your_gallery/bootstrap/start.php",
+					"file": "/d/sites/l4.share_your_gallery/bootstrap/autoload.php",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2315,
+						"buffer_size": 2453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1423,
+								1423
 							]
 						],
 						"settings":
@@ -1013,7 +1013,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1031,8 +1031,8 @@
 						"selection":
 						[
 							[
-								4455,
-								4447
+								3016,
+								3016
 							]
 						],
 						"settings":
@@ -1041,7 +1041,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3475.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1059,8 +1059,8 @@
 						"selection":
 						[
 							[
-								6480,
-								6520
+								6481,
+								6521
 							]
 						],
 						"settings":
@@ -1069,7 +1069,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5873.0,
+						"translation.y": 8289.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1119,6 +1119,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"illuminate/conta",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php"
+			],
+			[
+				"illuminate/foundation/a",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php"
+			],
 			[
 				"helper",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
@@ -1597,7 +1605,7 @@
 		[
 			[
 				"",
-				"D:\\sites\\sf2.framework\\sf2.framework.sublime-project"
+				"C:\\wamp\\www\\l4.spdev\\l4spdev.sublime-workspace"
 			]
 		],
 		"width": 380.0
