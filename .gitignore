@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 /vendor
 .vagrant
+/.vagrant
 composer.phar
 composer.lock
 .env.local.php
@@ -8,5 +9,6 @@ composer.lock
 .DS_Store
 Thumbs.db
 /public/gallery
+fortabbit.yml
 l4.share-your-gallery.sublime-project
 l4.share-your-gallery.sublime-workspace
