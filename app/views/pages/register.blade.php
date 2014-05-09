@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-	<div class="login col-md-4 col-md-offset-3">
+	<div class="login col-md-4 col-md-offset-4">
 	<h3 class="username bg bg-info center">Please register:</h3>
 	{{Form::open(['route' => 'users.store','role'=>'form']) }}
 	<div class="form-group">

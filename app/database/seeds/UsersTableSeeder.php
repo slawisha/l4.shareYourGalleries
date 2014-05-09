@@ -7,7 +7,7 @@ class UsersTableSeeder extends Seeder {
 
     public function run()
     {
-    	//User::truncate();
+    	User::truncate();
 
     	$user= new User;
     	$user->username = 'admin';
@@ -15,6 +15,7 @@ class UsersTableSeeder extends Seeder {
     	$user->password = Hash::make('admin');
     	$user->role_id = 1;
     	$user->save(); 
+
 
         $faker = Faker::create();
 

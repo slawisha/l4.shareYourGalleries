@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-	<div class="login col-md-4 col-md-offset-3">
-	<h3 class="username bg bg-info center">Welcome. Please sign in</h3>
+	<div class="login col-md-4 col-md-offset-4">
+	<h3 class="username bg bg-info center">Welcome. Please sign in.</h3>
 	{{ Form::open(['url' =>'sessions/store']) }} 
 	<div class="form-group">
 	{{ Form::label('email', 'Email') }}

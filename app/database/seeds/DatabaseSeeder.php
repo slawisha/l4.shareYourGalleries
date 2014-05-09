@@ -12,8 +12,17 @@ class DatabaseSeeder extends Seeder {
 		Eloquent::unguard();
 
 		$this->call('RolesTableSeeder');
-		$this->call('UsersTableSeeder');
-		$this->call('UserSharesTableSeeder');
+
+		if( App::environment == 'production' )
+		{
+			$this->call('UsersTableSeeder');
+			$this->call('UserSharesTableSeeder');
+		}
+		else 
+		{
+			$this->call('AdminTableSeeder');
+		}
+
 	}
 
 }

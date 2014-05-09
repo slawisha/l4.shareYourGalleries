@@ -16,7 +16,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     @if (Auth::check() && !is_admin())
       <ul class="menu sf-menu sf-navbar">
-        <li>{{ link_to_route('members.index', 'Galleries') }}</li>
+        <li>{{ link_to_route('members.index', 'Friends Galleries') }}</li>
+        <li><a href="#" class="separator">|</a></li>
         <li><a href="#">Manage</a>
             <ul class="sub-menu">
                 <li>{{ link_to_route('users.galleries.index', 'Galleries',['userId' => Auth::user()->id]) }}</li>
@@ -35,13 +36,15 @@
       <ul class="nav navbar-nav navbar-right">
       @if (Auth::guest())
         <li>{{ link_to_route('login', 'Login') }}</li>
+        <li><a href="#" class="separator">|</a></li>
         <li>{{ link_to_route('register', 'Register') }}</li>
       @else
          <li><a href="#">{{ 'Loged in as ' . Auth::user()->username }}</a></li>
+         <li><a href="#" class="separator">|</a></li>
          <li>{{ link_to_route('logout', 'Logout') }} </li>
          {{ Form::open(['route'=>'search', 'class'=>'navbar-form navbar-right'])}}
             <div class="form-group">
-              <input type="text" name="search-term" class="form-control" placeholder="Search">
+              <input type="text" name="search-term" class="form-control search" placeholder="Search">
               <i class="fa fa-search"></i>
             </div>
          {{ Form::close() }}

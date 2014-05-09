@@ -8,6 +8,10 @@ jQuery(document).ready(function($) {
 
 	$('ul.sf-menu').superfish();
 
+	$('.user-galleries').slimscroll({
+		height: '200px'
+	});
+
 	$('a.gallery-image').colorbox({ opacity:0.5 , rel:'group1' });
 
 	$('span.delete-image').on('click', function(e){

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/superfish.css') }}" >  
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" >  
     <link rel="stylesheet" href="{{ URL::asset('css/colorbox.css') }}" > 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
      <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}"> 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -21,7 +22,7 @@
       @include('partials.navigation')   	
       @yield('carousel')
     	<div class="container">
-      <div class="row" id="content">
+      <div class="row  vcenter" id="content">
       @include('partials.flashMessages')
     	@yield('content')
       </div>
@@ -37,6 +38,7 @@
     <script src="{{ URL::asset('js/hoverIntent.js') }}"></script>
     <script src="{{ URL::asset('js/superfish.js') }}"></script>
     <script src="{{ URL::asset('js/jquery.colorbox-min.js') }}"></script>
+    <script src="{{ URL::asset('js/jquery.slimscroll.min.js') }}"></script>
     <script src="{{ URL::asset('js/script.js') }}"></script>
   </body>
 </html>
