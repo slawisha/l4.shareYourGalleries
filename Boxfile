@@ -7,7 +7,7 @@ web1:
     - pdo_mysql
     - zip
     - xcache
-    - ext-gd
+    - php5-gd
   shared_writable_dirs:
     - app/storage/cache
     - app/storage/logs
