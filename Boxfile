@@ -7,8 +7,10 @@ web1:
     - pdo_mysql
     - zip
     - xcache
-    - php5-curl
-    - php5-gd
+    - curl
+    - gd
+    - eaccelerator
+    - memcached
   shared_writable_dirs:
     - app/storage/cache
     - app/storage/logs
