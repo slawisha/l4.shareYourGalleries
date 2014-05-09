@@ -1,7 +1,6 @@
 <?php
 
-
-class UsersTableSeeder extends Seeder {
+class AdminTableSeeder extends Seeder {
 
     public function run()
     {
