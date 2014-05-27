@@ -39,7 +39,7 @@
         <li><a href="#" class="separator">|</a></li>
         <li>{{ link_to_route('register', 'Register') }}</li>
       @else
-         <li><a href="#">{{ 'Loged in as ' . Auth::user()->username }}</a></li>
+         <li><a href="#" class="separator">{{ 'Loged in as ' . Auth::user()->username }}</a></li>
          <li><a href="#" class="separator">|</a></li>
          <li>{{ link_to_route('logout', 'Logout') }} </li>
          {{ Form::open(['route'=>'search', 'class'=>'navbar-form navbar-right'])}}

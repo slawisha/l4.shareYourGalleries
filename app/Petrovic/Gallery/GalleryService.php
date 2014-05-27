@@ -46,7 +46,7 @@ class GalleryService {
 		Event::fire('gallery.saving', [$validationData]);
 		//makedir
 		if(!file_exists($galleryUrl) && !empty($galleryUrl))
-		File::makeDirectory($galleryUrl, 777, true, true);
+		File::makeDirectory($galleryUrl, 0777, true, true);
 		//save gallery
 		$this->gallery->save($input);
 	}
@@ -110,7 +110,7 @@ class GalleryService {
 	 */
 	public function uploadAndSaveImages($upload, $galleryName)
 	{
-		$galleryUrl = public_path() . '/gallery/' . Auth::user()->username . '/' . $galleryName . '/';
+		$galleryUrl = public_path() . '/gallery/' . Auth::user()->username . '/' . $galleryName;
 		$galleryId = $this->gallery->findLastUpdatedId();
 
 		//save and move images

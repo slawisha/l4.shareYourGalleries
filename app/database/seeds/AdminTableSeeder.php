@@ -4,7 +4,6 @@ class AdminTableSeeder extends Seeder {
 
     public function run()
     {
-    	User::truncate();
 
     	$user= new User;
     	$user->username = Config::get('admin.username');

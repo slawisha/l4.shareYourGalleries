@@ -123,7 +123,9 @@ left:96%;
 }
 
 /*** home ***/
-.instruct {margin-top: 20px;}
+.instruct {margin: 20px 0;}
+
+.share{margin-top: 20px;}
 
 /*** members.index ***/
 

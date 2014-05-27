@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="col-md-12">
-	@if( !empty($galleries) )
+	@if( ! $galleries->isEmpty() )
 		<table class="table table-bordered">
 	  		<tr class="info"><th>Gallery Name</th><th>Gallery Owner</th><th>Gallery Url</th><th>Action</th></tr>
 				@foreach($galleries as $gallery)

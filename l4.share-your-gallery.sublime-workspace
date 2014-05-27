@@ -547,15 +547,15 @@
 			"file": "/d/sites/l4.share_your_gallery/Boxfile",
 			"settings":
 			{
-				"buffer_size": 639,
+				"buffer_size": 628,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/d/sites/l4.share_your_gallery/install.sh",
+			"file": "/d/sites/l4.share_your_gallery/app/database/seeds/UsersTableSeeder.php",
 			"settings":
 			{
-				"buffer_size": 2317,
+				"buffer_size": 669,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,7 +563,7 @@
 			"file": "/d/sites/l4.share_your_gallery/app/database/seeds/DatabaseSeeder.php",
 			"settings":
 			{
-				"buffer_size": 375,
+				"buffer_size": 376,
 				"line_ending": "Windows"
 			}
 		},
@@ -917,7 +917,7 @@
 						[
 							[
 								0,
-								0
+								6
 							]
 						],
 						"settings":
@@ -1030,7 +1030,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1578.0,
+						"translation.y": 32.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1161,7 +1161,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1304,15 +1304,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 639,
+						"buffer_size": 628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								180,
+								180
+							],
+							[
+								471,
+								471
 							]
 						],
 						"settings":
@@ -1433,24 +1437,26 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/d/sites/l4.share_your_gallery/install.sh",
+					"file": "/d/sites/l4.share_your_gallery/app/database/seeds/UsersTableSeeder.php",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2317,
+						"buffer_size": 669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								793,
-								802
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1464,15 +1470,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 375,
+						"buffer_size": 376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								328,
-								328
+								229,
+								229
 							]
 						],
 						"settings":
@@ -2570,7 +2576,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
